@@ -7,7 +7,7 @@ Operations that are supported: .css(), .attr(), .html(), .append(), .prepend(), 
 
 Selectors that are supported: By Id or by Class.
 
-The library is bound to $$, sou you can use it like this $$(".elements").html() or $$("#element").css();
+The library is bound to $$, so you can use it like this $$(".elements").html() or $$("#element").css();
 
 Performance
 ===========
