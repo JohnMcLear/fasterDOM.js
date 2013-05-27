@@ -26,7 +26,7 @@ var single_element = $$("#element");
 elements.append("Some string to append").prepend(document.createElement("div"))
         .css({width:"1px",height:"20px"}).attr("some-attr","some-value").html("some html string").hide().show();
 
-single_element.html() // Returns html of the element
+single_element.html(); // Returns html of the element
 single_element.attr("some-attr"); // Returns attr from element
-single_element.css() // Returns css of element
+single_element.css(); // Returns css of element
 ```
